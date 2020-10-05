@@ -4,6 +4,7 @@
     Author     : bruno
 --%>
 
+<%@page import="br.fatecpg.poo.Disciplina"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -13,6 +14,9 @@
     </head>
     <body>
         <%@include file="WEB-INF/jspf/menu.jspf" %>
-        <h1>Hello World!</h1>
+        <h3>Início</h3>
+        <h4>Bruno Pereira Tyba</h4>
+        <h4>Matricula: 1290481823005</h4>
+        <h4>Quantidade de disciplinas matriculadas: <%= Disciplina.getList().size() %> </h4>
     </body>
 </html>
