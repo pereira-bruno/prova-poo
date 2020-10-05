@@ -13,6 +13,9 @@
     </head>
     <body>
         <%@include file="WEB-INF/jspf/menu.jspf" %>
-        <h1>Hello World!</h1>
+        <h3>Sobre</h3>
+        <h4>Bruno Pereira Tyba</h4>
+        <h4>Matricula: 1290481823005</h4>
+        <a href="https://github.com/pereira-bruno/prova-poo">Repositório GitHub</a>
     </body>
 </html>
