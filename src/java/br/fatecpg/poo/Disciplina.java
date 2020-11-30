@@ -97,6 +97,8 @@ public class Disciplina {
         this.nota = nota;
     }
     
-    
+    public static String getCreateStatement() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
